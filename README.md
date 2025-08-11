@@ -1,1 +1,3 @@
-# food-event-manager-155220
+# Project Repository
+
+This is the initial README file for the project.
