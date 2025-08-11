@@ -1,0 +1,100 @@
+.app-root {
+  display: flex;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.main-content {
+  flex: 1 1 0%;
+  padding: 2em 2.5em;
+  padding-left: 0;
+  background: var(--background);
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.searchbar {
+  width: 290px;
+  padding: 0.7em;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.dashboard > section {
+  margin-bottom: 2.5em;
+}
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+.event-card {
+  background: var(--foreground);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 14px 0 rgba(44,62,80,.05);
+  border-radius: 12px;
+  min-width: 300px;
+  max-width: 320px;
+  flex: 0 1 320px;
+  padding: 1.4em 1.25em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.event-title {
+  color: var(--primary);
+  margin-bottom: .3em;
+  font-size: 1.4em;
+}
+.event-meta {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: .8em;
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+}
+.event-description {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+.event-actions {
+  margin-top: .3em;
+  display: flex;
+  gap: .25em;
+  flex-wrap: wrap;
+}
+.event-detail-row {
+  margin-bottom: 1em;
+}
+ul {
+  padding-left: 1.8em;
+}
+.modal-form input, .modal-form textarea {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: .7em;
+  box-sizing: border-box;
+  font-size: 1em;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.modal-form textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+.modal-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+.modal-form-row {
+  display: flex;
+  gap: .7em;
+  align-items: flex-end;
+  margin-bottom: 1em;
+}
